@@ -4,7 +4,7 @@ import Skills from './Skills'
 
 const PersonalArea = () => {
   return (
-    <div className='grid grid-cols-2'>
+    <div className='grid grid-rows-[80%,20%] h-full'>
         <CardApresentation />
         <Skills />
     </div>
